@@ -1,0 +1,22 @@
+.header-titulo {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.header-titulo-descripcion {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    background-color: darksalmon;
+    height: 3em;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;   
+}

@@ -1,0 +1,32 @@
+.flex {
+    display: flex;
+    background-color: yellow;
+    height: 300px;
+    /*Ajusta en el eje de las X */
+    justify-content:space-around;
+    align-items:;
+}
+
+.elemento-1 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+    background-color: aquamarine; 
+}
+
+.elemento-2 {
+    height: 200px;
+    width: 200px;
+    border: 1px;
+    border: 1px solid blue;
+    background-color: aquamarine; 
+}
+
+
+.elemento-3 {
+    height: 200px;
+    width: 200px;
+    border: 1px;
+    border: 1px solid blue;
+    background-color: aquamarine; 
+}

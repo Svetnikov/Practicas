@@ -1,0 +1,62 @@
+article {
+    background-color: aliceblue;
+    width: 80vw;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.titulo {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+nav {
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.redes-sociales {
+    display: flex;
+    width: 9em;
+    height: 3em;
+    justify-content: flex-end;
+    background-color: rgba(123,198,199,0.8);
+    /*margin-left:80lvw; */
+    
+}
+
+.slogan {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+ul li {
+    list-style: none;
+    font-family: sans-serif;
+    
+    flex-grow: 1;
+    background-color: rgba(123,198,199,0.8);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+    font-family: sans-serif;
+    gap: 2px;
+    padding: 0;
+}
+
+a {
+    display: flex;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
