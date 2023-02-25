@@ -26,7 +26,6 @@ nav {
     justify-content: flex-end;
     background-color: rgba(123,198,199,0.8);
     /*margin-left:80lvw; */
-    
 }
 
 .slogan {
@@ -53,7 +52,7 @@ ul {
     padding: 0;
 }
 
-a {
+.enlace {
     display: flex;
     padding: 1em;
     text-decoration: none;
