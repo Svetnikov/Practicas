@@ -5,6 +5,10 @@
     background-color: #161717;
 }
 
+h3 {
+    color: white;
+}
+
 .container {
     display: flex;
     flex-direction: column;
