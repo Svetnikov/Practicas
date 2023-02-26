@@ -26,13 +26,14 @@ h3 {
 }
 
 .btn-google {
-    background-color: rgb(4,122,243);
+    background-color: #1A73E8;
     border: none;
     border-radius: 5px;
     height: 40px;
     display: flex;
     align-items: center;
     padding: 2px;
+    
     
 }
 
