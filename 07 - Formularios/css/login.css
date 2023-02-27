@@ -4,6 +4,10 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+a {
+    color: #820086;
+    text-decoration: none;
+}
 .container {
     display: flex;
     flex-direction: column;
@@ -142,7 +146,7 @@ label input {
     transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
 }
 
-label input:hover {
+label input[type="text"]:hover, label input[type="password"]:hover {
     background-color: white;
     border: solid 1px #f3f3f4;
     box-shadow: 0 0 4px #820086;
@@ -177,4 +181,31 @@ label input:hover {
 .btn-submit:hover {
     opacity: 75%;
     transition: opacity 0.2s;
+}
+
+.inicia-sesion {
+    text-align: center;
+}
+
+.inicia-sesion a {
+    color: #820086;
+    font-weight: 500;
+}
+
+span .negrita {
+    font-weight: 500;
+}
+
+.pie-pagina {
+    color: #555;
+    font-size:15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
 }
